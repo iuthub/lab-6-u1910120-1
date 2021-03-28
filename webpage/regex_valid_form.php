@@ -5,7 +5,7 @@
 	$replaceText="";
 	$replacedText="";
 
-	$match="Not checked yet.";
+    $match="Not checked yet.";
 
 if ($_SERVER["REQUEST_METHOD"]=="POST") {
 	$pattern=$_POST["pattern"];
@@ -19,8 +19,13 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 					} else {
 						$match="Does not match!";
 					}
-}
 
+
+
+
+
+
+}
 ?>
 
 
@@ -50,8 +55,12 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 
 			<dt>&nbsp;</dt>
 			<dd><input type="submit" value="Check"></dd>
-		</dl>
+
+        </dl>
 
 	</form>
+
+
+
 </body>
 </html>
